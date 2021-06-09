@@ -1,10 +1,10 @@
 import React from "react";
 
-function CommentCard() {
+function CommentCard(props) {
   return (
     <div>
-      <p> this book is so good!!</p>
-      <p>balaram</p>
+      <p>{props.comment}</p>
+      <p>{props.name}</p>
     </div>
   );
 }
